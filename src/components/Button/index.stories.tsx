@@ -1,5 +1,5 @@
-import { Story, Meta } from '@storybook/react/types-6-0'
-import Button from '.'
+import { Meta, Story } from '@storybook/react'
+import Button from './index'
 
 export default {
   title: 'Button',

@@ -8,8 +8,8 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "prepare": "husky install",
-    "test": "jest",
-    "testwatch": "yarn test --watch",
+    "test": "jest -u",
+    "test-watch": "yarn test --watch",
     "generate": "yarn plop --plopfile ./generators/plopfile.js",
     "storybook": "start-storybook -s ./public -p 6006",
     "build-storybook": "build-storybook -s ./public"

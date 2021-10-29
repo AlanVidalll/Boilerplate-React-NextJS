@@ -1,4 +1,4 @@
-module.exports = function (plop) {
+/* module.exports = function (plop) {
   plop.setGenerator('controller', {
     description: 'application component',
 
@@ -33,6 +33,42 @@ module.exports = function (plop) {
         type: 'add',
         path: '../src/components/{{pascalCase name}}//test.tsx',
         templateFile: 'templates/test.tsx.hbs'
+      }
+    ]
+  })
+}
+ */
+
+module.exports = function (plop) {
+  plop.setGenerator('component', {
+    description: 'application component logic',
+    prompts: [
+      {
+        type: 'input',
+        name: 'name',
+        message: 'component name please'
+      }
+    ],
+    actions: [
+      {
+        type: 'add',
+        path: '../src/components/{{dashCase name}}/index.tsx',
+        templateFile: 'templates/index.tsx.hbs'
+      },
+      {
+        type: 'add',
+        path: '../src/components/{{dashCase name}}/index.stories.tsx',
+        templateFile: 'templates/index.stories.tsx.hbs'
+      },
+      {
+        type: 'add',
+        path: '../src/components/{{dashCase name}}/index.test.tsx',
+        templateFile: 'templates/index.test.tsx.hbs'
+      },
+      {
+        type: 'add',
+        path: '../src/components/{{dashCase name}}/styles.ts',
+        templateFile: 'templates/styles.ts.hbs'
       }
     ]
   })
