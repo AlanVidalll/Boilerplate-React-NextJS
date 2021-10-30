@@ -47,6 +47,9 @@ exports[`<Main> Should render the heading  1`] = `
 <main
   class="c0"
 >
+  <h1>
+    teste
+  </h1>
   <img
     alt="Imagem de um átomo e React Avançado"
     class="c1"
