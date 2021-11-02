@@ -6,7 +6,7 @@ Boilerplate configurado com Next.Js, Storybook, Jest, Typescript e  Styled-Compo
 
 ## Next.JS
 #### O que é Next.JS?
-[Next.js](https://dogs-rede-social.herokuapp.com/)  é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, o Nextjs busca reunir diversas funcionalidades como renderização hibrida e estática de conteúdo, suporte a TypeScript, pre-fetching, sistema de rotas, pacotes de funcionalidades e diversos plugins e exemplos para acelerar seu desenvolvimento fornecendo uma estrutura completa para você iniciar seu projeto.
+[Next.js](https://nextjs.org/docs/getting-started/)  é um framework React com foco em produção e eficiência criado e mantido pela equipe da Vercel, o Nextjs busca reunir diversas funcionalidades como renderização hibrida e estática de conteúdo, suporte a TypeScript, pre-fetching, sistema de rotas, pacotes de funcionalidades e diversos plugins e exemplos para acelerar seu desenvolvimento fornecendo uma estrutura completa para você iniciar seu projeto.
 
 #### Principais funcionalidades do Next.js
 * Hibrido SSG e SSR: Renderize as páginas durante a build (Static Site Generation) ou em cada request (Server-side Rendering) no mesmo projeto.
@@ -27,7 +27,7 @@ Boilerplate configurado com Next.Js, Storybook, Jest, Typescript e  Styled-Compo
 
 ## Storybook
 #### O que é Storybook?
-Storybook é uma ferramenta que tem como objetivo servir de ambiente isolado para você criar seus componentes. Ou seja, você não precisa desenvolver seu componente diretamente no seu sistema.
+[Storybook](https://storybook.js.org/docs/react/get-started/introduction) é uma ferramenta que tem como objetivo servir de ambiente isolado para você criar seus componentes. Ou seja, você não precisa desenvolver seu componente diretamente no seu sistema.
 
 Ele é utilizado por grandes empresas como: GitHub, Dropbox, airbnb, Mozilla, JetBrains, etc.
 O Storybook funciona com várias bibliotecas e frameworks, como: React, Angular, Vue, Ember, etc.
@@ -44,7 +44,7 @@ Imagina que temos uns 30 componentes em nossa aplicação e temos que procurar e
 ## Jest
 #### O que é Jest?
 
-Jest é um framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript.
+[Jest](https://jestjs.io/pt-BR/docs/getting-started) é um framework de teste unitário de código aberto em JavaScript criado pelo Facebook a partir do framework Jasmine. Jest é uma das ferramentas de teste unitário mais difundidas dentro da comunidade de JavaScript.
 
 
 #### Visão geral
@@ -55,7 +55,7 @@ O Jest foi inicialmente criado para testar o framework React, também criado pel
 
 ## Typescript
 #### O que é Typescript?
-Typescript é um conjunto de ferramentas que adiciona melhorias aos projetos desenvolvidos e escritos em código JavaScript.
+[Typescript](https://www.typescriptlang.org/docs/) é um conjunto de ferramentas que adiciona melhorias aos projetos desenvolvidos e escritos em código JavaScript.
 
 Ele pode ser compreendido como um superconjunto de soluções e recursos que não são nativos da linguagem, mas que podem tornar o trabalho de programação muito mais eficiente e dinâmico.
 
@@ -103,7 +103,7 @@ Em um curso ou mesmo nas comunidades e fóruns que tratam de Typescript é poss�
 ## Styled-Components
 #### O que é Styled-Components?
 
-Uma das coisas que muito tem se falado, enquanto desenvolvendo aplicações com React, é sobre styled components
+Uma das coisas que muito tem se falado, enquanto desenvolvendo aplicações com React, é sobre [Styled-Components](https://styled-components.com/docs)
 Styled components são componentes onde criamos o CSS no próprio arquivo do componente, o arquivo JS.
 Com isso conseguimos obter algumas vantagens em diversos quesitos, tais como:
 
@@ -140,8 +140,6 @@ $ yarn ou npm install
 ```
 $ yarn create next-app -e https://github.com/AlanVidalll/Boilerplate-React-NextJS <Nome projeto>
 ```
-
-
 
 
 ## Executando o Sistema
